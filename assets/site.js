@@ -67,7 +67,7 @@
     if (meta) meta.setAttribute("content", themes[name].color);
   }
 
-  let saved = "dark-mint";
+  let saved = "neon-arcade";
   try { saved = localStorage.getItem("klightten-site-theme") || saved; } catch (_) {}
   setTheme(saved, false);
 
@@ -98,6 +98,19 @@
     });
   }
 
+
+  if (nav) {
+    nav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("open");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.innerHTML = icon("menu");
+        }
+      });
+    });
+  }
+
   document.addEventListener("keydown", e => {
     if (e.key === "Escape") {
       if (nav) nav.classList.remove("open");
@@ -115,7 +128,7 @@
   });
 
   document.querySelectorAll("[data-version]").forEach(el => {
-    el.textContent = cfg.version || "3.0.0";
+    el.textContent = cfg.version || "3.1.0";
   });
 
   document.querySelectorAll("[data-support]").forEach(el => {

@@ -169,3 +169,18 @@ See [SECURITY.md](SECURITY.md).
   <strong>KLIGHTTEN MEDIA</strong><br>
   Linux-first media by Klightten Industries
 </p>
+
+
+## Polished Site Pass
+
+The current public-site package also includes:
+
+- Neon-Arcade as the first-visit default theme
+- a product-specific KLIGHTTEN desktop preview
+- improved hero hierarchy and branded background treatment
+- working GitHub repository buttons
+- trackable GitHub Issues support route
+- corrected download SHA copy behavior
+- social preview / canonical metadata
+- stronger focus states and mobile navigation behavior
+- refined theme identity labels using the five canonical mascots

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark-mint">
+<html lang="en" data-theme="neon-arcade">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,6 +9,13 @@
   <meta property="og:title" content="KLIGHTTEN MEDIA — Linux Desktop Media Hub">
   <meta property="og:description" content="KLIGHTTEN MEDIA 3.1 is a Linux-only media workspace with a music-first library, persistent YouTube browser, local media, ani-cli, MPV and FFmpeg.">
   <meta property="og:type" content="website">
+
+  <link rel="canonical" href="https://jardeleza0921.github.io/KLIGHTTEN-MEDIA-SITE/">
+  <meta property="og:url" content="https://jardeleza0921.github.io/KLIGHTTEN-MEDIA-SITE/">
+  <meta property="og:image" content="https://jardeleza0921.github.io/KLIGHTTEN-MEDIA-SITE/assets/logo-brand.png">
+  <meta property="og:image:alt" content="KLIGHTTEN MEDIA Neon-Arcade logo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jardeleza0921.github.io/KLIGHTTEN-MEDIA-SITE/assets/logo-brand.png">
   <title>KLIGHTTEN MEDIA — Linux Desktop Media Hub</title>
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css">
@@ -26,11 +33,11 @@
           <span data-icon="palette"></span><span data-theme-label>Neon Arcade</span>
         </button>
         <div class="theme-menu" data-theme-menu role="radiogroup" aria-label="Website theme">
-          <button class="theme-option" type="button" data-theme-option="dark-mint" role="radio" aria-checked="true"><span class="theme-swatch" style="background:linear-gradient(135deg,#59f0b2,#b7ffe0)"></span><span><strong>Dark-Mint</strong><small>Canonical KLIGHTTEN</small></span><span>01</span></button>
-          <button class="theme-option" type="button" data-theme-option="neon-arcade" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#00e7ff,#ff2ec8)"></span><span><strong>Neon-Arcade</strong><small>// = ^ w ^ = )</small></span><span>02</span></button>
-          <button class="theme-option" type="button" data-theme-option="black-white" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#f5f5f5,#333)"></span><span><strong>Black-White</strong><small>Canonical KLIGHTTEN</small></span><span>03</span></button>
-          <button class="theme-option" type="button" data-theme-option="crimson-red" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#e11d48,#ff667f)"></span><span><strong>Crimson-Red</strong><small>Canonical KLIGHTTEN</small></span><span>04</span></button>
-          <button class="theme-option" type="button" data-theme-option="cream-coffee" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#ead4b0,#a8754f)"></span><span><strong>Cream Coffee</strong><small>Canonical KLIGHTTEN</small></span><span>05</span></button>
+          <button class="theme-option" type="button" data-theme-option="dark-mint" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#59f0b2,#b7ffe0)"></span><span><strong>Dark-Mint</strong><small>Bunny</small></span><span>01</span></button>
+          <button class="theme-option" type="button" data-theme-option="neon-arcade" role="radio" aria-checked="true"><span class="theme-swatch" style="background:linear-gradient(135deg,#00e7ff,#ff2ec8)"></span><span><strong>Neon-Arcade</strong><small>Cat • // = ^ w ^ = )</small></span><span>02</span></button>
+          <button class="theme-option" type="button" data-theme-option="black-white" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#f5f5f5,#333)"></span><span><strong>Black-White</strong><small>Wolf</small></span><span>03</span></button>
+          <button class="theme-option" type="button" data-theme-option="crimson-red" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#e11d48,#ff667f)"></span><span><strong>Crimson-Red</strong><small>Fox</small></span><span>04</span></button>
+          <button class="theme-option" type="button" data-theme-option="cream-coffee" role="radio" aria-checked="false"><span class="theme-swatch" style="background:linear-gradient(135deg,#ead4b0,#a8754f)"></span><span><strong>Cream Coffee</strong><small>Dog</small></span><span>05</span></button>
         </div>
       </div>
       <button class="menu-btn" type="button" data-menu-button aria-label="Open navigation" aria-expanded="false"><span data-icon="menu"></span></button>
@@ -41,47 +48,91 @@
 <section class="hero">
   <div class="container hero-grid">
     <div data-reveal>
-      <div class="eyebrow">Linux Desktop Media Hub</div>
-      <h1><span class="gradient-text">One media space.</span><br>Built for Linux.</h1>
-      <p class="lead">KLIGHTTEN MEDIA brings Music, the full YouTube website, Local music/video, ani-cli, queues and local FFmpeg conversion into one Linux desktop workspace.</p>
+      <div class="eyebrow">Klightten Industries • Linux-first media</div>
+      <h1><span class="gradient-text">Your media.</span><br>One Linux workspace.</h1>
+      <p class="lead">Music, YouTube, local files, ani-cli, MPV playback and FFmpeg conversion — organized into one focused desktop experience instead of a pile of separate tools.</p>
       <div class="actions">
         <a class="btn primary" href="download/"><span data-icon="download"></span><span>Download 3.1</span></a>
-        <a class="btn" href="oauth/"><span data-icon="shield"></span><span>OAuth &amp; Data Use</span></a>
+        <a class="btn" href="#features"><span data-icon="layers"></span><span>Explore features</span></a>
         <a class="btn" data-github data-github-label="GitHub link not configured" aria-disabled="true"><span data-icon="github"></span><span>GitHub</span></a>
       </div>
       <div class="status-row">
-        <span class="pill version">Version 3.1.0</span>
-        <span class="pill">Automatic MPV routing</span>
+        <span class="pill version">v3.1.0 • verified</span>
+        <span class="pill">Linux only</span>
         <span class="pill">Local-first</span>
-        <span class="pill">No downloader module</span>
+        <span class="pill">No ripping/downloader module</span>
       </div>
     </div>
-    <div class="app-preview" data-reveal aria-label="Stylized preview of KLIGHTTEN MEDIA">
+    <div class="app-preview product-preview" data-reveal aria-label="Stylized KLIGHTTEN MEDIA desktop preview">
       <div class="preview-window">
-        <div class="preview-title"><div class="preview-brand">KLIGHTTEN MEDIA • 3.1</div><div class="preview-dots"><span></span><span></span><span></span></div></div>
-        <div class="preview-body">
-          <div class="preview-side"><span></span><span></span><span></span><span></span><span></span></div>
-          <div class="preview-main">
-            <div class="preview-search"></div>
-            <div class="preview-media"><div class="preview-play"><span data-icon="play"></span></div></div>
-            <div class="preview-controls"><div class="preview-control"></div><div class="preview-control"></div><div class="preview-progress"></div><div class="preview-control"></div></div>
+        <div class="preview-title">
+          <div class="preview-brand"><img src="assets/logo-256.png" alt=""> KLIGHTTEN MEDIA <span>3.1 • LINUX</span></div>
+          <div class="preview-dots"><span></span><span></span><span></span></div>
+        </div>
+        <div class="product-layout">
+          <aside class="product-side">
+            <div class="product-side-brand"><img src="assets/logo-256.png" alt=""><strong>KLIGHTTEN<br>MEDIA</strong></div>
+            <span class="product-nav active">⌂ <b>Home</b></span>
+            <span class="product-nav">♫ <b>Music</b></span>
+            <span class="product-nav">▶ <b>YouTube</b></span>
+            <span class="product-nav">▱ <b>Local</b></span>
+            <span class="product-nav">◫ <b>Anime</b></span>
+            <span class="product-nav">⚙ <b>Settings</b></span>
+          </aside>
+          <div class="product-main">
+            <div class="product-topline"><span>NOW PLAYING</span><span class="tiny-pill">LOCAL • MPV</span></div>
+            <div class="product-now">
+              <div class="product-art"><img src="assets/logo-256.png" alt=""></div>
+              <div class="product-track">
+                <strong>KLIGHTTEN MEDIA</strong>
+                <span>One media workspace • Linux</span>
+                <div class="wave-bars" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </div>
+            </div>
+            <div class="product-progress"><span></span></div>
+            <div class="product-controls">
+              <button type="button" tabindex="-1">↶</button>
+              <button class="play-control" type="button" tabindex="-1">▶</button>
+              <button type="button" tabindex="-1">↷</button>
+              <div class="product-volume">VOL ━━━━━ 82%</div>
+            </div>
+            <div class="product-source-grid">
+              <span><b>Music</b><small>Library + queue</small></span>
+              <span><b>YouTube</b><small>Chromium</small></span>
+              <span><b>Local</b><small>MPV</small></span>
+              <span><b>Anime</b><small>ani-cli</small></span>
+            </div>
           </div>
         </div>
+        <div class="product-footer"><span>MEDIA CONTROL</span><span>Float Video: manual</span><span>F • Y • F11</span></div>
       </div>
     </div>
   </div>
 </section>
 
 <section class="section brand-section">
-<div class="container brand-showcase" data-reveal>
-<img src="assets/logo-brand.png" alt="KLIGHTTEN MEDIA canonical Neon-Arcade logo">
-<div><div class="eyebrow">Canonical Branding</div><h2>Klightten Media, unmistakably KLIGHTTEN.</h2>
-<p class="lead">Neon-Arcade background, black cat mark, black-and-white reading waveform, and the Klightten Media wordmark.</p></div>
-</div></section>
+  <div class="container brand-showcase" data-reveal>
+    <div class="brand-image-wrap"><img src="assets/logo-brand.png" alt="KLIGHTTEN MEDIA canonical Neon-Arcade logo"></div>
+    <div>
+      <div class="eyebrow">Canonical identity</div>
+      <h2>Neon-Arcade at the center. Five themes across KLIGHTTEN.</h2>
+      <p class="lead">The Media identity keeps the approved black cat mark and black-white reading waveform on a Neon-Arcade background, while the interface can switch across the five canonical KLIGHTTEN themes.</p>
+      <div class="theme-token-row" aria-label="Canonical KLIGHTTEN themes">
+        <span class="theme-token mint"><b>Bunny</b><small>Dark-Mint</small></span>
+        <span class="theme-token neon"><b>Cat</b><small>Neon-Arcade</small></span>
+        <span class="theme-token mono"><b>Wolf</b><small>Black-White</small></span>
+        <span class="theme-token red"><b>Fox</b><small>Crimson-Red</small></span>
+        <span class="theme-token coffee"><b>Dog</b><small>Cream Coffee</small></span>
+      </div>
+    </div>
+  </div>
+</section>
 
-<section class="section alt">
+<section class="section alt" id="features">
   <div class="container">
-    <div class="section-head" data-reveal><div class="eyebrow">Version 3.1</div><h2>A clearer Linux media workspace.</h2><p>Version 3.1 separates Music, YouTube, Local files and Anime into focused workspaces, adds a persistent YouTube browser, and standardizes KLIGHTTEN's Linux keyboard and theme system.</p></div>
+    <div class="section-head" data-reveal><div class="eyebrow">Version 3.1</div><h2>A clearer Linux media workspace.</h2><p>Version 3.1 restores the persistent Media Control Panel and Now Playing workspace, makes Floating Video manual-only, and applies the five canonical KLIGHTTEN themes across the full desktop experience.</p></div>
     <div class="grid-3">
       <article class="card feature" data-reveal><div class="feature-icon"><span data-icon="music"></span></div><h3>Music</h3><p>An ArchiveTune-inspired music workflow for songs, artists, albums, playlists, favorites, history and queue.</p></article>
       <article class="card feature" data-reveal><div class="feature-icon"><span data-icon="film"></span></div><h3>Local</h3><p>One clean Local workspace for music and video files stored directly on your Linux computer.</p></article>
@@ -90,6 +141,14 @@
       <article class="card feature" data-reveal><div class="feature-icon"><span data-icon="convert"></span></div><h3>Local Converter</h3><p>Convert files already on your computer to MP3 or MP4 with FFmpeg. No downloader/ripping module is included.</p></article>
       <article class="card feature" data-reveal><div class="feature-icon"><span data-icon="layers"></span></div><h3>Five Canonical Themes</h3><p>Dark-Mint, Neon-Arcade, Black-White, Crimson-Red and Cream Coffee — the five canonical KLIGHTTEN themes.</p></article>
     </div>
+  </div>
+</section>
+
+<section class="value-strip">
+  <div class="container value-grid" data-reveal>
+    <div><strong>Linux-only</strong><span>Designed around a real Linux desktop workflow.</span></div>
+    <div><strong>Local-first</strong><span>Your own media stays central to the experience.</span></div>
+    <div><strong>Separated engines</strong><span>MPV, Chromium and FFmpeg each do the job they handle best.</span></div>
   </div>
 </section>
 
