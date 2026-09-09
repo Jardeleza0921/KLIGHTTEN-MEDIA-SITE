@@ -12,10 +12,11 @@
   const themeOptions = [...document.querySelectorAll("[data-theme-option]")];
 
   const themes = {
-    "neon-arcade": {label:"Neon Arcade", color:"#00e7ff"},
-    "classic-green": {label:"Classic Green", color:"#7dff6b"},
-    "black-white": {label:"Black + White", color:"#f5f5f5"},
-    "redhat": {label:"Redhat", color:"#ff4d59"}
+    "dark-mint": {label:"Dark-Mint", color:"#59f0b2"},
+    "neon-arcade": {label:"Neon-Arcade", color:"#00e7ff"},
+    "black-white": {label:"Black-White", color:"#f5f5f5"},
+    "crimson-red": {label:"Crimson-Red", color:"#e11d48"},
+    "cream-coffee": {label:"Cream Coffee", color:"#ead4b0"}
   };
 
   const icons = {
@@ -66,7 +67,7 @@
     if (meta) meta.setAttribute("content", themes[name].color);
   }
 
-  let saved = "neon-arcade";
+  let saved = "dark-mint";
   try { saved = localStorage.getItem("klightten-site-theme") || saved; } catch (_) {}
   setTheme(saved, false);
 
@@ -114,7 +115,7 @@
   });
 
   document.querySelectorAll("[data-version]").forEach(el => {
-    el.textContent = cfg.version || "2.7.0";
+    el.textContent = cfg.version || "3.0.0";
   });
 
   document.querySelectorAll("[data-support]").forEach(el => {

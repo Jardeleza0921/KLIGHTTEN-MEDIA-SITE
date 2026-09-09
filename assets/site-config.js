@@ -1,6 +1,6 @@
 window.KLIGHTTEN_SITE = Object.freeze({
-  version: "2.7.0",
-  releaseFile: "KLIGHTTEN_MEDIA_2.7_POLISHED_CONTROLS.zip",
+  version: "3.1.0",
+  releaseFile: "KLIGHTTEN_MEDIA_3.1_LINUX_REFINED.zip",
   githubRepository: "",
   supportEmail: "",
   customDomain: ""
